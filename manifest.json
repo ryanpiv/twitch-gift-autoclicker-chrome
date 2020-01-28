@@ -1,8 +1,8 @@
 {
   "name": "Twitch Gift Autoclicker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
-  "description": "",
+  "description": "Autoclicks the channel points gift button that occasionally shows up on Twitch.tv.",
   "homepage_url": "https://github.com/ryanpiv/twitch-gift-autoclicker-chrome",
   "icons": {
     "16": "icons/icon128.png",
