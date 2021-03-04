@@ -1,0 +1,25 @@
+{
+  "name": "Twitch Gift Autoclicker",
+  "version": "1.0.2",
+  "manifest_version": 2,
+  "description": "Autoclicks the channel points gift button that occasionally shows up on Twitch.tv.",
+  "homepage_url": "https://github.com/ryanpiv/twitch-gift-autoclicker-chrome",
+  "icons": {
+    "16": "icons/icon128.png",
+    "48": "icons/icon128.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "contentSettings"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": [
+        "inject/inject.js"
+      ]
+    }
+  ]
+}
